@@ -1,0 +1,41 @@
+App\Entity\Token:
+  token1:
+    name: 'Bitcoin'
+    createdAt: '<(new DateTime("2009-01-03"))>'
+    price: 21130.63
+    rank: 1
+    maxSupply: 21000000
+    circulatingSupply: 19103712
+    blockchainType: 'Segwit'
+  token2:
+    name: 'Ethereum'
+    createdAt: '<(new DateTime("2015-07-30"))>'
+    price: 1523.08
+    rank: 2
+    maxSupply: 
+    circulatingSupply: 121692476
+    blockchainType: "Ether"
+  token3:
+    name: 'Tether'
+    createdAt: '<(new DateTime("2014-10-06"))>'
+    price: 1
+    rank: 3
+    maxSupply: 65876317670
+    circulatingSupply: 65876317670
+    blockchainType: 'Stablecoin'
+  token4:
+    name: 'USD Coin'
+    createdAt: "<(new DateTime('2018-09-01'))>"
+    price: 1
+    rank: 4
+    maxSupply: 55071653231
+    circulatingSupply: 55071654463
+    blockchainType: 'Stablecoin'
+  token5:
+    name: "BNB"
+    createdAt: "<(new DateTime('2017-07-14'))>"
+    price: 243.44
+    rank: 5
+    maxSupply: 163276974
+    circulatingSupply: 163276974
+    blockchainType: "BEP2"

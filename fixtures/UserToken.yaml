@@ -1,0 +1,7 @@
+App\Entity\UserToken:
+  userToken{1..100}:
+    quantity: '<randomFloat()>'
+    token: '@token*'
+    user: '@User*'
+    walletAddress: '<ipv6()>'
+    

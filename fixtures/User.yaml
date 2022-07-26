@@ -1,0 +1,13 @@
+App\Entity\User:
+  User{1..100}:
+    email: '<email()>'
+    password: '\$2y\$13\$A5Tl74zxvege1DpBH6wfK.HU6YTNgh673pMTjt2/gbWy9qD.ohr1m'
+    name: '<name()>'
+    birthAt: '<DateTime()>'
+    createdAt: '<DateTime()>'
+  User0:
+    email: 'bloubi@boulga.com'
+    password: '\$2y\$13\$A5Tl74zxvege1DpBH6wfK.HU6YTNgh673pMTjt2/gbWy9qD.ohr1m'
+    name: 'Kuikui'
+    birthAt: '<DateTime()>'
+    createdAt: '<DateTime()>'

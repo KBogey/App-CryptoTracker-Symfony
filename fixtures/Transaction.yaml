@@ -1,0 +1,9 @@
+App\Entity\Transaction:
+  transaction{2..100}:
+    occuredAt: '<DateTime()>'
+    status: '<Word()>'
+    amount: '<randomFloat()>'
+    fee: '<NumberBetween(0, 30)>'
+    token: '@token*'
+    receiver: '@userToken*'
+    sender: '@userToken*'
